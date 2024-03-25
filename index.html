@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="git test site">
+    <link
+        href="https://fonts.googleapis.com/css?family=Montserrat+Alternates:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"
+        rel="stylesheet" />
+    <title>calculator</title>
+    <link
+        href="https://img.freepik.com/psd-gratuitas/calculadora-isolada-em-fundo-transparente_191095-26234.jpg?size=626&ext=jpg&ga=GA1.1.1176865824.1693370025&semt=sph"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/10310/10310245.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/10.6.4/math.min.js"
+        integrity="sha512-iphNRh6dPbeuPGIrQbCdbBF/qcqadKWLa35YPVfMZMHBSI6PLJh1om2xCTWhpVpmUyb4IvVS9iYnnYMkleVXLA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <h1> Calculator </h1>
+
+    <table id="calculator" class="calculator">
+        <tr>
+            <td colspan="3"><input type="text" id="Count_result"></td>
+            <td><input type="button" value="clear" onclick="clearDisplay()"> </td>
+        </tr>
+        <tr>
+            <td><input type="button" value="9" onclick="display('9')"></td>
+            <td><input type="button" value="8" onclick="display('8')"></td>
+            <td><input type="button" value="7" onclick="display('7')"></td>
+            <td><input type="button" value="+" onclick="display('+')"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="6" onclick="display('6')"></td>
+            <td><input type="button" value="5" onclick="display('5')"></td>
+            <td><input type="button" value="4" onclick="display('4')"></td>
+            <td><input type="button" value="-" onclick="display('-')"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="3" onclick="display('3')"></td>
+            <td><input type="button" value="2" onclick="display('2')"></td>
+            <td><input type="button" value="1" onclick="display('1')"></td>
+            <td><input type="button" value="x" onclick="display('*')"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="0" onclick="display('0')"></td>
+            <td><input type="button" value="," onclick="display(',')"></td>
+            <td><input type="button" value="=" onclick="solve()"></td>
+            <td><input type="button" value="÷" onclick="display('/')"></td>
+        </tr>
+    </table>
+
+    <br>
+    <button id="Creator"><a href="desc.html"> desc</a></button>
+
+</body>
+
+</html>

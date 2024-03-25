@@ -1,0 +1,33 @@
+* {
+  background-color: #140f0f;
+  color: rgb(255, 255, 255);
+  font-family: Montserrat Alternates;
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 55px;
+}
+
+.calculator {
+  align-items: center;
+  display: flex;
+  margin-left: 440px;
+}
+
+button {
+  border: 1px solid aqua;
+  color: aqua;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.calculator {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+}
